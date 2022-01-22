@@ -1,0 +1,52 @@
+#site{
+    width: 900px;
+    margin:auto;
+}
+
+#topo{
+    width: 100%;
+    height: 100px;
+    background-color: darkgray;
+}
+
+#navtopo{
+    height: 30px;
+    background-color: darkslategrey;
+}
+
+#conteudo{
+    width: 100%;
+    height: 500px;
+    background-color: fuchsia;
+}
+
+#barralado{
+    width: 20%;
+    height: 100%;
+    background-color: grey;
+    float:left;
+}
+
+#sectionblocos{
+    width: 80%;
+    height: 100%;
+    background-color: lightcoral;
+    float: left;
+}
+.amarelo{
+    background-color: yellow;
+}
+.azul{
+    background-color: blue;
+}
+.bloco{
+    width: 50%;
+    height: 33.33%;
+    float: left;
+}
+#rodape{
+    width: 100%;
+    height: 100px;
+    background-color: darkgray;
+}
+
