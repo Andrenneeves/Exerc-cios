@@ -1,0 +1,34 @@
+table{
+   border: 1px solid rgb(163, 163, 163);
+   text-align: center;
+   background-color: rgb(160, 180, 199);
+
+}
+th{
+    background-color: grey;
+    padding: 4px;
+    color:white;
+}
+
+.dias{
+    color: gray;
+}
+.passado{
+    color: rgb(165, 165, 189);
+}
+tfoot{
+    background-color:rgb(146, 174, 199);
+    color: gray;
+    font-size: 10px;
+}
+.dom{
+    font-weight: bold;
+}
+.fer{
+    color: red;
+    font-weight: bold;
+}
+.dia{
+    color: green;
+    font-weight: bold;
+}
