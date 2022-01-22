@@ -1,0 +1,69 @@
+body{
+    background-color: white
+}
+
+body div{
+    width: 900px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+header{
+   height: 100px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#topo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#blocos{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 40% 40% auto;
+    row-gap: 15px;
+    column-gap: 14px;
+    padding: 15px;
+    grid-template-rows: 150px 100px 80px 125px;
+}
+
+#blocos article{
+    padding: 10px;
+}
+.bloco-destaque{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: blue;    
+}
+.bloco-2{
+    background-color: yellow;
+   
+}
+.bloco-3{
+    background-color: red;
+}
+.bloco-4{
+    background-color: white;
+}
+.bloco-5{
+    background-color:red ;
+}
+.bloco-6{
+    background-color: yellow;
+}
+.bloco-7{
+    background-color:red;
+}
+.bloco-8{
+    background-color: blue;
+}
+.bloco-9{
+    background-color: white;
+}
+footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
