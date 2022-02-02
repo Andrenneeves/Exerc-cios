@@ -1,0 +1,63 @@
+body{
+   
+    background-image: linear-gradient(to bottom, white, #4bb3d0 45%);
+}
+#back{
+    
+    height: 1000px;
+    background-image: url("./img/download.jfif");
+    background-size: 286px 176px ;
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+
+#site{
+    width:  900px;
+    margin: 0 auto;
+} 
+
+header{
+    width: 100%;
+    height: 215px;    
+    background-image: url("./img/SonicSeriesLogo.png");
+    background-repeat: no-repeat;
+   background-position: center;
+}
+#fundo{
+    width: 100%;
+    height: 600px;
+  
+    display: grid;
+    grid-template-columns:50% 50%;
+    grid-template-rows: 50% 50%;
+    row-gap: 5px;
+    column-gap: 5px;
+    padding: 15px ;
+    justify-content: center;
+}
+#art1{
+    background-image: url("./img/sonic-sonic-mania-sonic-the-hedgehog-video-games-wallpaper-preview.jpg");
+    background-size: 135%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+#art2{
+
+   background-image: url("./img/tails.jpg");
+    background-size: 135%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#art3{
+    background-image: url("./img/artworks-000092040171-doj5t6-t500x500.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#art4{
+    background-image: url("./img/wp1863609.webp");
+    background-size:135%;
+    background-repeat: no-repeat;
+    background-position: center;     
+}
